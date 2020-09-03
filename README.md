@@ -6,7 +6,7 @@ A Reservation request consists of the name of the person who makes the reservati
 
 Eg. John A2 A0 A1
 
-Upon a reservation request system simulates a database operation by sleeping for 50 ms. During this time period any reservation request on the seats already locked for database operation waits for the completion of the operation. This database operation has 10% chance of failing. After a successful or failed database operation any request that waits for completion resumes. If any of the awaited seats are successfully reserved by another user, thread exits with failure log, else it tried to reserve the prementioned seats
+Upon a reservation request system simulates a database operation by sleeping for 50 ms. During this time period any reservation request on the seats already locked for database operation waits for the completion of the operation. This database operation has 10% chance of failing. After a successful or failed database operation any request that waits for completion resumes. If any of the awaited seats are successfully reserved by another user, thread exits with failure log, else it tries to reserve the prementioned seats.
 
 
 #### Keywords
